@@ -1,0 +1,88 @@
+/* For Example media only screen ( max-wdth : 991px ){
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+
+  .container {
+    max-width: 768.5px;
+  }
+
+
+  .main_wrapper .main_header {
+    padding: 12px 16px;
+    font-weight: 700;
+}
+
+.navbar-brand .header_logo {
+  width: 60px;
+}
+
+.navbar .navbar-toggler{    background-color: #FFF;}
+
+.navbar-collapse .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 5px;
+  margin : 0;
+
+}
+
+.nav-item .badge_btn{
+  
+  margin-bottom: 20px;
+}
+
+.navbar .navbar-nav_second {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+
+}
+
+/* For Tablets */
+@media only screen and (max-width: 991px) {
+
+
+  .container {
+    max-width: 991px;
+}
+
+
+
+.banner_contents .banner_title_one {
+  font-size: 20px;
+}
+.banner_contents .banner_title_two {
+  font-size: 20px;
+}
+
+.banner_contents .banner_para {
+  font-size: 15px;
+}
+
+
+.btn_inner_content .progress {
+  margin-bottom: 10px;
+  width: 325px;
+}
+
+.btn_section .left-end-btn {
+  padding: 20px 60px;
+}
+
+.btn_section .right-end-btn {
+  padding: 20px 20px;
+}
+
+.col .footer_section {
+
+  flex-direction: column;
+
+}
+
+}

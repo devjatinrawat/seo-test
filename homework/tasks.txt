@@ -1,0 +1,20 @@
+Sir Mera Target tha 5 sections complete karne
+par actually fever aagya toh abhi calpol le ke aaye
+abhi toh thik lf rha hai 
+mene position , flaot apply kar diya , last child margin bhi
+mey aaj aur kl tha complete kar leta hoon  
+
+
+Done : 
+Position , Float , Css Grid , Flexbox.
+
+
+logo float //
+Position Of Contents //
+Button outside Div
+responsive Mobile View 
+padding has to be reduced 
+
+
+
+

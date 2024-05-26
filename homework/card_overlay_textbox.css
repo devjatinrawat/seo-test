@@ -1,0 +1,27 @@
+
+
+.card_body .card_contents{
+    padding : 10px;
+    /* so that it wont touch the border */
+    display: flex;
+    /* make it a flexbox */
+    justify-content: center;
+    /* make it in center along x axis */
+    align-items: center;
+        /* make it in center along y axis */
+    outline: 2px solid blue;
+    flex-direction: column;
+    /* flex direction  */
+    flex-direction: column;
+    /* col means one after the other  */
+      max-width: 407px;
+    /* lets define a max-width for a card */
+    position: relative;
+
+}
+
+.card_body .card_overlay{
+    background-color: black;
+    opacity: 0.9;
+    position: absolute;
+}

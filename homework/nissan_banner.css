@@ -1,0 +1,100 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .navbar{
+    padding : 15px 0;
+  }
+  
+
+.nav-item {
+    margin-right: 20px;
+    font-family: "Nissan Brand W01 Bold";
+    font-size: 13px;
+}
+
+.nav-item-icon{
+    margin-right : 20px;
+}
+
+.nav-item-icon i{
+    margin-right : 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-item a{
+    text-transform: uppercase;
+}
+
+.login_btn{
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+
+
+.nissan_banner{
+    background: url('./../images/nissan_banner.png');
+    min-height: 856.34px;  
+  /* Image is centered vertically and horizontally at all times */
+  background-position: top top;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+}
+
+.banner_contents{
+    max-width : 703px;
+    font-family: "Nissan Brand W01 Regular";
+    position: absolute;
+    bottom : 100px;
+    left  : 100px;
+
+}
+
+.banner_title{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: 1.5px;
+    }
+
+    .input-group{
+  max-width: 500px;
+  min-height: 45px;
+}
+
+ input[type=text]{
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 26px;
+  letter-spacing: 0.89px;
+
+}
+
+.banner_para{
+    /* font-weight : lighter; */
+    font-weight: 400 !important;
+    font-family: "Nissan Brand W01 Light";
+}
+
